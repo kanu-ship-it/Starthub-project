@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family:'Roboto' , sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    margin: 0.75rem 0;
+}
+
+/*utility  class*/
+.text-primary {
+    color:#fff;
+}
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    
+}
+
+.lead{
+    font-size: 1.3rem;
+    margin-bottom:2rem;
+}
+
+
+.btn {
+    display:inline-block ;
+    color: #fff;
+    background-color:rgb(175, 3, 55);
+    padding: 0.8rem 2rem;
+    border: 2rem;
+    border-radius: 0.2rem;
+}
+
+#Activities {
+    max-width: 1100px;
+    margin : auto;
+    padding : 0 2 rem;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+
+}
+#what {
+    max-width: 1100px;
+    margin : auto;
+    padding : 0 2 rem;
+    overflow: hidden;
+    text-align:center;
+
+}
+
+#others {
+    margin: auto;
+    display: flex;
+    max-width: 1100px;
+    text-align: center;
+    justify-content: center;
+    padding:0 2rem;
+    
+}
+.py-1 {padding: 1.5rem 0;}
+.py-2 {padding: 2rem 0;}
+.py-3 {padding: 3rem 0;}
+
+#achieved{
+    max-width: 1100px;
+    margin : auto;
+    padding : 0 2 rem;
+    overflow: hidden;
+    text-align:center;
+
+}
+
+/*navbar*/
+
+#navbar{
+    background:rgb(134, 100, 110);
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    z-index:1 ;
+    padding: 1rem;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a{
+    color:#fff;
+    padding:0.75rem ;
+    margin:0 0.25rem;
+}
+#navbar ul li a:hover{
+    background: rgb(228, 177, 177);
+    border-radius: 5px;
+}
+
+/*showcase*/
+#showcase{
+    background: #fff;
+    height: 100vh;
+}
+
+#showcase  .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content:center ;
+    height: 50%;
+    padding: 0.2rem;
+    
+    top:0;
+    left:0;
+}
+
+
+#Box{
+
+    background:rgb(240, 114, 131); 
+    height: 50vh;
+     
+
+}
+
+#Box  .Box-line {
+
+    text-align: center;
+    margin-bottom: 50%;
+    color:#fff;
+    display: flex;
+    
+    
+    
+    
+    
+    justify-content: space-evenly;
+
+}
+
+#Box .Box-line .active{
+    background-color: rgb(175, 3, 55);
+    margin: 3rem;
+    padding: 3rem;
+
+}
+
+#Box  .Box-line .Professional {
+    background-color:rgb(175, 3, 55);;
+    margin: 3rem;
+    padding: 4rem;
+
+
+}
+
+#Box  .Box-line  .recuiters{
+    background-color: rgb(175, 3, 55);
+    margin:3rem;
+    padding:4rem ;
+}
+
+.container{
+    padding: 1rem;
+}
+
+.item {
+    padding:4rem;
+}
+
+#Activities .item  .fath{
+    background-color:rgb(175, 3, 55);
+    margin:0.25rem ;
+    padding:0 2rem;
+}
+
+
+.innovation .difference{
+    background-color: rgb(255, 0, 76);
+    padding: 0 2rem;
+    margin: 5rem;
+    border-radius: 50rem;
+    
+} 
+
+.innovation .difference .brad {
+    padding: 0.25rem;
+    margin: 3rem;
+    border-radius: 5rem;
+    min-width: 30%;
+    
+}
